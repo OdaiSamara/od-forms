@@ -1,0 +1,52 @@
+.od-to-tobar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 10px 1px gray;
+}
+
+.od-flex {
+  display: flex;
+}
+.od-sidebar {
+  border-right: 2px solid black;
+  width: 20%;
+  height: 100vh;
+  padding: 20px;
+}
+.od-items {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+tr:nth-child(even) {
+  background-color: #f1f7f8;
+}
+
+th,
+td {
+  border: 1px solid #abcbcf;
+  padding: 10px;
+  text-align: center;
+}
+th {
+  background-color: #74afb9;
+  color: #fff;
+}
+td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

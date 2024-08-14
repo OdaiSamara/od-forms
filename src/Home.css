@@ -1,0 +1,10 @@
+.od-bg {
+  background-color: #074d5a;
+  height: 100vh;
+}
+.od-center {
+  margin: 200px;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
